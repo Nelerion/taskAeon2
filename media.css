@@ -1,0 +1,153 @@
+@media (max-width: 1024px) {
+  .products__card_container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .products_card {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1106px) {
+  .main {
+    background-color: #cbecff;
+    background-size: contain;
+  }
+  .main_card {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 912px) {
+  .sens_button {
+    margin-bottom: 320px;
+  }
+  .products {
+    margin-top: -350px;
+  }
+  .main {
+    background-color: #cbecff;
+    background-size: 70%;
+    padding-top: 400px;
+    background-position: top center;
+  }
+  .provide {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .provide_title {
+    text-align: center;
+  }
+  .provide_block {
+    width: 100%;
+  }
+  .provide_left {
+    justify-content: center;
+    align-items: center;
+  }
+  .provide_card {
+    box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 0 10px 12px 18px;
+  }
+  .provide_button{
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 645px) {
+  .container {
+    padding: 0 16px;
+  }
+  .main_card {
+    gap: 20px 5px;
+  }
+  .card {
+    width: 48%;
+  }
+  .card_content {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    font-weight: 400;
+    font-size: calc(10px + 6 * (100vw / 1100));
+    line-height: 140%;
+  }
+  .icon_circle {
+    margin-top: -35px;
+  }
+  .products {
+    margin-top: -280px;
+  }
+  .sens_button {
+    margin-bottom: 240px;
+  }
+}
+
+@media (max-width: 480px) {
+  .products_card {
+    max-width: 344px;
+    position: relative;
+  }
+  .card_image {
+    height: 50%;
+    width: 40%;
+    object-fit: cover;
+  }
+  .products_title {
+    font-size: 16px;
+  }
+  .block_text {
+    font-size: 13px;
+    font-weight: 400;
+    max-height: 140%;
+  }
+  .provide_info {
+    width: 100%;
+    text-align: center;
+  }
+  .provide_title {
+    font-size: 24px;
+  }
+  .provide_cards {
+    gap: 20px 5px;
+  }
+  .provide_card {
+    width: 48%;
+  }
+  
+}
+
+@media (max-width: 425px) {
+  .main {
+    background-size: 100% auto;
+    background-position: 50% 10%;
+  }
+  .button {
+    width: 100%;
+  }
+  .sens_text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    text-align: justify;
+  }
+  .products {
+    margin-top: -300px;
+  }
+  .sens_button {
+    margin-bottom: 260px;
+  }
+  .products_btitle {
+    font-size: 24px;
+  }
+ 
+}
+
+@media (max-width: 360px) {
+  .products_text{
+    font-size: calc(10px + 1 * (100vw / 344));
+  }
+  .products_card {
+padding-bottom: 10px;
+  }
+}
